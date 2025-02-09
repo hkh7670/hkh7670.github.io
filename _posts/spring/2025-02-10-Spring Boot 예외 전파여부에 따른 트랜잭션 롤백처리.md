@@ -9,7 +9,7 @@ tags: [Spring, Spring Boot, Transaction, DB]
 ## Case 1
 ```java
 @Transactional
-public void insertPopularMovies() {
+public void insertPopularMovies() { 
   PopularMoviePageResponse res = getPopularMovies(1);
   movieRepository.saveAll(
       res.results().stream()
