@@ -6,7 +6,7 @@ categories: [Spring]
 tags: [Spring, Spring Boot, Transaction, DB]
 ---
 
-### Case 1 test
+### Case 1
 ```java
 @Transactional
 public void insertPopularMovies() { 
