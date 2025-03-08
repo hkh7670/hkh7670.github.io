@@ -1,0 +1,67 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+@font-face {
+    font-family: 'D2Coding';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MonoplexKRWideNerd-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-widenerd@1.0/MonoplexKRWideNerd-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MonoplexKRNerd-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-nerd@1.0/MonoplexKRNerd-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans+KR&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+$font-family-base: 
+'IBM Plex Sans KR'
+// 'Noto Sans KR'
+;
+
+$font-family-heading: 
+'IBM Plex Sans KR'
+// 'Noto Sans KR'
+;
+
+$markdown-font-family-base:
+'MonoplexKRWideNerd-Regular'
+// 'Noto Sans Mono'
+// 'D2Coding'
+;
+
+body {
+    font-family: $font-family-base !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-heading !important;
+}
+
+// 코드 블록 (```코드```)
+pre, code {
+    font-family: $markdown-font-family-base !important;
+}
+
+// inline 코드 (`코드`)
+code.highlighter-rouge {
+    font-family: $markdown-font-family-base !important;
+}
