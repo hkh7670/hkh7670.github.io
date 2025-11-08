@@ -9,36 +9,92 @@
 
 /* append your custom style below */
 
+/* D2Coding */
 @font-face {
   font-family: 'D2Coding';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff')
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff')
     format('woff');
   font-weight: normal;
-  font-style: normal;
+  font-display: swap;
+}
+
+/* Pretendard */
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2')
+    format('woff2');
+  font-weight: 100;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MonoplexKRWideNerd-Regular';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-widenerd@1.0/MonoplexKRWideNerd-Regular.woff2')
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2')
     format('woff2');
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'MonoplexKRNerd-Regular';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-nerd@1.0/MonoplexKRNerd-Regular.woff2')
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2')
     format('woff2');
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans+KR&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Mono:wght@100..900&display=swap');
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2')
+    format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2')
+    format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2')
+    format('woff2');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2')
+    format('woff2');
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2')
+    format('woff2');
+  font-weight: 900;
+  font-display: swap;
+}
 
 /* Chirpy의 기본 변수 덮어쓰기 */
-$font-family-base: 'Noto Sans KR', 'IBM Plex Sans KR', sans-serif;
-$font-family-heading: 'Noto Sans KR', 'IBM Plex Sans KR', sans-serif;
-$markdown-font-family-base: 'D2Coding', 'MonoplexKRWideNerd-Regular', monospace;
+$font-family-base: 'Pretendard', sans-serif;
+$font-family-heading: 'Pretendard', sans-serif;
+$markdown-font-family-base: 'D2Coding', monospace;
 
 /* 본문 폰트 적용 */
 body {
